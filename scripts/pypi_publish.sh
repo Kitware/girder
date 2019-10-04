@@ -8,4 +8,4 @@ for d in . plugins/* pytest_girder clients/python ; do
     python setup.py sdist
     popd
 done
-twine upload --skip-existing dist/* plugins/*/dist/* clients/python/dist/* pytest_girder/dist/*
+# twine upload --skip-existing dist/* plugins/*/dist/* clients/python/dist/* pytest_girder/dist/*
